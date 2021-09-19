@@ -1,48 +1,5 @@
-: 1632043799:0;ls
-: 1632043802:0;la
-: 1632043803:0;ls
-: 1632043804:0;la
-: 1632043806:0;load
-: 1632043807:0;ls
-: 1632043809:0;la
-: 1632043813:0;exir
-: 1632043814:0;exit
-: 1632043825:0;cd .dot
-: 1632043827:0;ls
-: 1632043829:0;la
-: 1632043836:0;cd termux
-: 1632043837:0;ls
-: 1632043842:0;cd .config
-: 1632043843:0;ls
-: 1632043849:0;cd zsh
-: 1632043851:0;ls
-: 1632043862:0;git status
-: 1632043878:0;v .zshrc
-: 1632043931:0;commit "installed oh my zsh"
-: 1632043934:0;push
-: 1632043941:0;git statuw
-: 1632043943:0;git status
-: 1632043979:0;cd ..
-: 1632043980:0;la
-: 1632043985:0;cd ..
-: 1632043997:0;commit "update"
-: 1632044007:0;git status
-: 1632044026:0;cd
-: 1632044034:0;ls
-: 1632044037:0;cd .dot
-: 1632044042:0;git status
-: 1632044070:0;git diff termux/.config/zsh/zsh_history
-: 1632044090:0;cd
-: 1632044091:0;la
-: 1632044102:0;rm .zshrc
-: 1632044107:0;cd .dot
-: 1632044116:0;v m
-: 1632044128:0;v .gitignore
-: 1632044185:0;commit 'added gitignore'
-: 1632044190:0;push 
-: 1632044196:0;git status
-: 1632044224:0;ls
-: 1632044267:0;cd .dot
-: 1632044268:0;ls
-: 1632044276:0;v .gitignore
-: 1632044288:0;commit 'added gitignore'
+: 1632044424:0;v .zshrc
+: 1632044459:0;commit -m "change history file name and updated in zshrc"
+: 1632044461:0;puah
+: 1632044464:0;push
+: 1632044494:0;commit "change history file name and updated in zshrc"
