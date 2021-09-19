@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo -n "Enter PH.Number: "
+read number
+termux-open-url https://wa.me/+91$number
+echo "opening whatsapp..."
