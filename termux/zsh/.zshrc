@@ -21,12 +21,11 @@ export TERM='xterm-256color'
 declare -a PROMPTS
 PROMPTS=(
      ""
-     ""
+     ""
      ""
+     "ﲎ"
      ""
      ""
-     ""
-     ""
 )
 #PROMPT='%F{cyan}%1~%f %F{blue}%f '
 RANDOM=$$$(date +%s)
