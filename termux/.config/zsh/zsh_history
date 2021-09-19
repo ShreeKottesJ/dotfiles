@@ -19,3 +19,10 @@
 : 1632043862:0;git status
 : 1632043878:0;v .zshrc
 : 1632043931:0;commit "installed oh my zsh"
+: 1632043934:0;push
+: 1632043941:0;git statuw
+: 1632043943:0;git status
+: 1632043979:0;cd ..
+: 1632043980:0;la
+: 1632043985:0;cd ..
+: 1632043997:0;commit "update"
