@@ -16,6 +16,12 @@ source ~/.config/zsh/.zprofile
 export EDITOR='nvim'
 export MANPAGER='nvim +Man!'
 export TERM='xterm-256color'
+export HISTFILE=~/.config/zsh/zsh_history
+
+#oh my zsh installation
+export ZSH="/data/data/com.termux/files/home/.oh-my-zsh"
+plugins=(git)
+source $ZSH/oh-my-zsh.sh
 
 #Prompt
 declare -a PROMPTS
