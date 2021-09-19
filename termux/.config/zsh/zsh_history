@@ -39,3 +39,10 @@
 : 1632044116:0;v m
 : 1632044128:0;v .gitignore
 : 1632044185:0;commit 'added gitignore'
+: 1632044190:0;push 
+: 1632044196:0;git status
+: 1632044224:0;ls
+: 1632044267:0;cd .dot
+: 1632044268:0;ls
+: 1632044276:0;v .gitignore
+: 1632044288:0;commit 'added gitignore'
