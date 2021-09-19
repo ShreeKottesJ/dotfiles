@@ -26,3 +26,16 @@
 : 1632043980:0;la
 : 1632043985:0;cd ..
 : 1632043997:0;commit "update"
+: 1632044007:0;git status
+: 1632044026:0;cd
+: 1632044034:0;ls
+: 1632044037:0;cd .dot
+: 1632044042:0;git status
+: 1632044070:0;git diff termux/.config/zsh/zsh_history
+: 1632044090:0;cd
+: 1632044091:0;la
+: 1632044102:0;rm .zshrc
+: 1632044107:0;cd .dot
+: 1632044116:0;v m
+: 1632044128:0;v .gitignore
+: 1632044185:0;commit 'added gitignore'
