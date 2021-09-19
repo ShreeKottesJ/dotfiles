@@ -1,0 +1,10 @@
+alias ..='cd ..'
+alias ...='cd ../..
+alias 4.='cd ../../..
+alias fy='youtube-dl -F'
+alias dy='youtube-dl -f'
+alias v='nvim'
+alias load='clear && zsh'
+alias pkgi='pkg install'
+alias pkgu='pkg uninstall'
+
