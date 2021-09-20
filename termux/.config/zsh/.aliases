@@ -13,4 +13,5 @@ alias commit='git add . ; git commit -m'
 alias gc='git clone'
 alias push='git push origin master'
 alias pull='git pull origin master'
+alias uu='pkg update && pkg upgrade'
 
