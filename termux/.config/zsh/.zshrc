@@ -26,6 +26,7 @@ source $ZSH/oh-my-zsh.sh
 #Prompt
 declare -a PROMPTS
 PROMPTS=(
+     ""
      ""
      ""
      ""
