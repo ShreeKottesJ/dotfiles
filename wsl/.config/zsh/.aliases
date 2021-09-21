@@ -1,0 +1,4 @@
+alias apt='sudo apt-get'
+alias v='nvim'
+alias load='zsh && clear'
+alias suck='exit'
