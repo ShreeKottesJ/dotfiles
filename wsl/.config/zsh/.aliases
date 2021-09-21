@@ -1,4 +1,12 @@
 alias apt='sudo apt-get'
 alias v='nvim'
-alias load='zsh && clear'
+alias load='clear && zsh'
 alias suck='exit'
+alias clone='git clone'
+alias commit='git add -A ; git commit -m'
+alias push='git push origin master'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias 3..='cd ../../..'
+alias 4..='cd ../../../..'
+
