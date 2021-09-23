@@ -1,6 +1,6 @@
 alias ..='cd ..'
 alias ...='cd ../..
-alias 4.='cd ../../..
+alias 4..='cd ../../..
 alias fy='youtube-dl -F'
 alias dy='youtube-dl -f'
 alias v='nvim'
@@ -9,7 +9,8 @@ alias pkgi='pkg install'
 alias pkgu='pkg uninstall'
 alias open='termux-open'
 alias ourl='termux-open-url'
-alias commit='git add . ; git commit -m'
+alias commit='git add -A ; git commit -m'
+alias suck='exit'
 alias gc='git clone'
 alias push='git push origin master'
 alias pull='git pull origin master'
