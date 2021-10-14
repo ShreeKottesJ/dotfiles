@@ -20,7 +20,7 @@ export HISTFILE=~/.config/zsh/.zsh_history
 
 #oh my zsh installation
 export ZSH="/data/data/com.termux/files/home/.oh-my-zsh"
-plugins=(git)
+plugins=()
 source $ZSH/oh-my-zsh.sh
 
 #Prompt
