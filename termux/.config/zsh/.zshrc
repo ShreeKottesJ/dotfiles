@@ -26,18 +26,14 @@ source $ZSH/oh-my-zsh.sh
 #Prompt
 declare -a PROMPTS
 PROMPTS=(
-     ""
-     ""
-     ""
-     ""
-     "ﲎ"
-     ""
-     ""
+     ""
+     ""
+     "﮼"
 )
 #PROMPT='%F{cyan}%1~%f %F{blue}%f '
 RANDOM=$$$(date +%s)
 ignition=${PROMPTS[$RANDOM % ${#RANDOM[*]}+1]}
-PROMPT='%F{blue}%1~%f %F{cyan}$ignition%f '
+PROMPT='%F{red}%1~%f %F{cyan}$ignition%f '
 
 
 #Case Insensitive Tab Completion: 
@@ -52,3 +48,4 @@ setopt prompt_subst
 RPROMPT=\$vcs_info_msg_0_
 zstyle ':vcs_info:git:*' formats '%F{yellow}(%b)%r%f'
 zstyle ':vcs_info:*' enable git
+

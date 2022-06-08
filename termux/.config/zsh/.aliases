@@ -1,8 +1,6 @@
 alias ..='cd ..'
 alias ...='cd ../..
 alias 4..='cd ../../..
-alias fy='youtube-dl -F'
-alias dy='youtube-dl -f'
 alias v='nvim'
 alias load='clear && zsh'
 alias pkgi='pkg install'
@@ -16,4 +14,11 @@ alias gc='git clone'
 alias push='git push origin master'
 alias pull='git pull origin master'
 alias uu='pkg update && pkg upgrade'
+alias cds='cd ~/storage/shared/'
+
+#yt-dlp
+
+alias yt-mp4='yt-dlp -f  bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4 --no-mtime'
+alias yt-mkv="yt-dlp -f bestvideo+bestaudio --no-mtime --merge-output-format mkv"
+alias ytmkv-sv="yt-dlp -f bestvideo+bestaudio --no-mtime --merge-output-format mkv -P $HOME/storage/shared/oppofiles/Media/Short\ Videos"
 
