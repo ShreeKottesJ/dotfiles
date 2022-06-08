@@ -26,9 +26,11 @@ source $ZSH/oh-my-zsh.sh
 #Prompt
 declare -a PROMPTS
 PROMPTS=(
+     ""
      ""
      ""
      "﮼"
+     ""
 )
 #PROMPT='%F{cyan}%1~%f %F{blue}%f '
 RANDOM=$$$(date +%s)
