@@ -20,5 +20,6 @@ alias cds='cd ~/storage/shared/'
 
 alias yt-mp4='yt-dlp -f  bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4 --no-mtime'
 alias yt-mkv="yt-dlp -f bestvideo+bestaudio --no-mtime --merge-output-format mkv"
-alias ytmkv-sv="yt-dlp -f bestvideo+bestaudio --no-mtime --merge-output-format mkv -P $HOME/storage/shared/oppofiles/Media/Short\ Videos"
+#alias ytmkv-sv="yt-dlp -f bestvideo+bestaudio --no-mtime --merge-output-format mp4 -P $HOME/storage/shared/oppofiles/Media/Short\ Videos"
+alias ytmkv-sv="yt-dlp -f bestvideo+bestaudio -S vcodec:h264 -S acodec:aac --no-mtime --merge-output-format mp4 -P $HOME/oppofiles/Media/Short\ Videos/"
 

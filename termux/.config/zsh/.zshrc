@@ -26,8 +26,8 @@ source $ZSH/oh-my-zsh.sh
 #Prompt
 declare -a PROMPTS
 PROMPTS=(
-     ""
      ""
+     ""
      ""
      "﮼"
      ""
@@ -36,7 +36,6 @@ PROMPTS=(
 RANDOM=$$$(date +%s)
 ignition=${PROMPTS[$RANDOM % ${#RANDOM[*]}+1]}
 PROMPT='%F{red}%1~%f %F{cyan}$ignition%f '
-
 
 #Case Insensitive Tab Completion: 
 autoload -Uz compinit && compinit
@@ -51,3 +50,5 @@ RPROMPT=\$vcs_info_msg_0_
 zstyle ':vcs_info:git:*' formats '%F{yellow}(%b)%r%f'
 zstyle ':vcs_info:*' enable git
 
+#Greeting
+echo Welcome Back! SK
