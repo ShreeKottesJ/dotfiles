@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+echo -n "Enter Number: "
+read number
+sleep 1
+echo "Opening Whatsapp..."
+xdg-open https://wa.me/+91$number
+ 
