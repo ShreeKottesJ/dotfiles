@@ -36,8 +36,8 @@ PROMPTS=(
 RANDOM=$$$(date +%s)
 ignition=${PROMPTS[$RANDOM % ${#RANDOM[*]}+1]}
 #PROMPT="%F{cyan}%~%f"$'\n'"%F{magenta}%f "
-PROMPT="%F{cyan}%~%f"$'\n'"%F{magenta}$ignition %f "
-#PROMPT="%F{green}%f%F{yellow}%~%f%F{green}%f"$'\n'"%F{blue}>>=%f "
+#PROMPT="%F{cyan}%~%f"$'\n'"%F{magenta}$ignition %f "
+PROMPT="%F{cyan}%f%F{cyan}%~%f%F{green}%f"$'\n'"%F{blue}>>=%f "
 
 
 #Case Insensitive Tab Completion: 
