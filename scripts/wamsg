@@ -1,8 +1,13 @@
 #!/usr/bin/env bash
 
-echo -n "Enter Number: "
-read number
-sleep 1
-echo "Opening Whatsapp..."
-xdg-open https://wa.me/+91$number
- 
+function message() {
+	if [ $(echo $1 | awk '{ print length }') -eq 10 ]; then
+		xdg-open "https://wa.me/+91$number"
+		echo "Opening WhatsApp..."
+	else
+		echo "Error: Requires 10-digit number"
+	fi
+}
+
+read -p "Phone Number: " number
+message $number
